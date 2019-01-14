@@ -19,8 +19,8 @@ html, body{
 
 .carousel-inner img{
 	width: 100%;
-	height: 650px;
-	max-height: 650px;
+	height: 670px;
+	max-height: 670px;
 }
 .carousel-caption{
 	position: absolute;
@@ -92,17 +92,25 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}
 	a{color:#bd5d38}a:active,a:focus,a:hover{color:#824027}
 .resume-content h1{
 	font-size: 15px;
-	color: #2DBDED;
+	color: #006600;
 }	
 
 	
 /*---Media Queries --*/
 @media (max-width: 992px) {
-
-	
-	
+ .carousel-inner img{
+	width: 100%;
+	height: 500px;
+	max-height: 500px;
 }
+ 
 @media (max-width: 768px) {
+	
+.carousel-inner img{
+	width: 100%;
+	height: 400px;
+	max-height: 400px;
+}
 
 .carousel-caption{
 	top: 45%;
@@ -122,6 +130,11 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}
 }
 @media (max-width: 576px) {
   
+  .carousel-inner img{
+	width: 100%;
+	height: 300px;
+	max-height: 300px;
+}
 }
 
 
