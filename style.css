@@ -66,10 +66,6 @@ html, body{
 	padding-top: 0rem;
 }
 
-.welcome p{
-	font-size: 130%;
-}
-
 .welcome hr{
 	border-top: 5px solid #003399;
 	width: 95%;
@@ -80,55 +76,64 @@ html, body{
 .text-center{
 	margin-top: 1rem;
 }
-.text-center h1{
-	font-size: 200%;
-	font-weight: bold;
-	padding-bottom: 0rem;
-}
+
 .text-center h3{
 	padding-bottom: 1rem;
+	color: #6699ff;
 }
+
+
 .fabflix-carousel-inner img{
-	width: 100%;
-	height: 820px;
-	max-height: 820px;
- }
+    width: 100%;
+    height: 100%;
+	max-height: 720px;
+	object-fit: contain;
+}
+.geo-carousel-inner img{
+    width: 100%;
+    height: 100%;
+	max-height: 720px;
+	object-fit: contain;
+}
+ 
+ 
 .carousel-control-prev p,
 .carousel-control-next p{
 	font-size: 600%;
 	color: #00ccff;
 }
+
  
-.fabflix h1{
-	
+.fabflix h1, .geo h1{
+	margin-top:40px;
 	font-size: 270%;
 	font-weight: 600%;
 	color: #6699ff; 
 	
 }
 
-.fabflix-carousel-caption{
+.fabflix-carousel-caption, .geo-carousel-caption{
 	position: absolute;
 	top: 20%;
 	left: 5%;
 }
 
-.fabflix-carousel-caption h3{
+.fabflix-carousel-caption h3, .geo-carousel-caption h3{
 	font-size: 200%;
-	font-weight: 700;
+	font-weight: 70;
 	color: #993333;
 }
-.fabflix-feature h3{
+.fabflix-feature h3, .geo-feature h3{
 	font-size: 200%;
-	font-weight: 800;
-	color: #339933; 
+	font-weight: 80;
+	color: #009933; 
 }
-.fabflix-feature p{
+.fabflix-feature p, .geo-feature p{
 	font-size: 120%;
 	color: #009933; 
 }
  
- 
+
 .carousel-inner img{
 	width: 100%;
 	height: 750px;
@@ -173,7 +178,6 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;
 	
 /*---Media Queries --*/
 
- 
 
 @media (max-width: 1600px) {
 .carousel-inner img{
@@ -192,37 +196,19 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;
 	font-weight: 500;
 	padding-bottom: 1rem;
 }
-.text-center p{
-	font-size: 100%;
-}
-.text-center h3{
-	padding-bottom: 1rem;
-	font-size: 100%;
-}
 
-.fabflix-carousel-inner img{
-	width: 100%;
-	height: 620px;
-	max-height: 620px;
- }
-.attitude p{
-	font-size: 100%;
-	padding-top: 20px;
-}
-.self_description p{
-	font-size: 100%;
-	padding-top: 20px;
-}
+
 
 }
 
+ 
 @media (max-width: 1366px) {
- .carousel-inner img{
+.carousel-inner img{
 	width: 100%;
 	height: 600px;
 	max-height: 600px;
- }
- .carousel-caption h1{
+}
+.carousel-caption h1{
 	font-size: 400%;
 	text-shadow: 1px 1px 15px #000;
 }
@@ -232,15 +218,20 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;
 	font-weight: 500;
 	padding-bottom: 1rem;
 }
- .jumbotron p{
+.jumbotron p{
 	font-size: 135%;
 	font-weight: bold;
 }
-.fabflix-carousel-inner img{
-	width: 100%;
-	height: 520px;
-	max-height: 520px;
- }
+
+.attitude p{
+	font-size: 100%;
+	padding-top: 20px;
+}
+.self_description p{
+	font-size: 100%;
+	padding-top: 20px;
+}
+
 }
   
 @media (max-width: 1024px) {
@@ -263,11 +254,7 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;
 	font-size: 135%;
 	font-weight: bold;
 }
-.fabflix-carousel-inner img{
-	width: 100%;
-	height: 520px;
-	max-height: 520px;
- }
+
 .fabflix h1{
 	font-size: 230%;
 	font-weight: 600%;
@@ -334,14 +321,8 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;
 	font-weight: 500;
 	color: #993333;
 }
-.fabflix-carousel-inner img{
-	width: 720;
-	height: 405px;
-	max-height: 405px;
- }
+
  
-
-
 }
 @media (max-width: 640px) {
   
@@ -384,11 +365,7 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;
 	font-weight: 500;
 	color: #993333;
 }
-.fabflix-carousel-inner img{
-	width: 540px;
-	height: 304px;
-	max-height: 304px;
- }
+
  
 
 }
@@ -440,7 +417,7 @@ figure {
 
 
 
-/*
+
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
 
@@ -455,7 +432,7 @@ Large (lg) devices (desktops, 992px and up)
 
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
-*/
+
 
 
 
