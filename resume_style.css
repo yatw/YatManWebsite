@@ -1,0 +1,67 @@
+
+
+html, body{
+
+	color: #000000;
+	line-height: 1;	
+	margin-top: 0px;
+	margin-bottom: 0;
+	font-family: 'Open Sans', sans-serif;
+	
+	width: 8.5in;
+	height: 11in;
+}
+
+p { 
+	font-size: 12pt;
+	margin: 5px; 
+}
+
+
+.bold{
+	font-weight: bold;
+}
+
+.italic{
+	font-style: italic;
+}
+
+ul{
+	margin: 0px;
+	padding-bottom: 10pt;
+}
+
+li{
+	font-size: 12pt;
+	padding-bottom: 1pt;
+}
+
+.center{
+	text-align: center;	
+	padding-bottom: 10pt;
+}
+
+.heading b{
+    font-size: 26pt;
+}
+
+.heading p{
+	font-family: 'fantasy';
+}
+
+.title{
+	padding-bottom: 0px;
+	font-size: 14pt;
+}
+
+.alignleft{
+	text-align:left;
+}
+.alignright{
+	float: right;
+}
+
+hr{
+	padding-top: 0px;
+	border-top: 1px solid #000000;
+}
