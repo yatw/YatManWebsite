@@ -1,19 +1,36 @@
 
-
 html, body{
-
+	
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 	color: #000000;
 	line-height: 1;	
-	margin-top: 0px;
-	margin-bottom: 0;
 	font-family: 'Open Sans', sans-serif;
+				
 	
+	/*Uncomment the page size restriction when displaying in web view  */
 	width: 8.5in;
 	height: 11in;
+	background-color: #ccffcc;
+	
+}
+
+.container{
+	width: inherit;
+	height: inherit;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.big_text{
+	font-size: 14pt; /*** 12 on pdf**/
 }
 
 p { 
-	font-size: 12pt;
+	font-size: 12pt; /*** 11 on pdf**/
 	margin: 5px; 
 }
 
@@ -28,12 +45,15 @@ p {
 
 ul{
 	margin: 0px;
-	padding-bottom: 10pt;
+	padding-top: 2pt;
 }
 
 li{
 	font-size: 12pt;
-	padding-bottom: 1pt;
+}
+
+.spacing{
+	padding-top: 1pt;
 }
 
 .center{
@@ -55,10 +75,14 @@ li{
 }
 
 .alignleft{
-	text-align:left;
+	float: left;
 }
 .alignright{
 	float: right;
+}
+.aligncenter{
+	display: block;
+	text-align: center;
 }
 
 hr{
