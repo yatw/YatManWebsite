@@ -13,7 +13,7 @@ html, body{
 	/*Comment on pdf, show on web  */
 	width: 8.5in;
 	height: 11in;
-	background-color: #000000;
+	background-color: #ffffff; 
 	
 }
 
@@ -34,6 +34,9 @@ p {
 	margin: 5px; 
 }
 
+.paragraphBreak p{
+	padding-top: 10pt;
+}
 
 .bold{
 	font-weight: bold;

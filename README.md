@@ -5,10 +5,18 @@ Feel free to come visit me at www.wongyatman.cf
 
 **To Generate the resume as pdf**
 
-
-Use [wkhtmltopdf](https://wkhtmltopdf.org/) , run in command prompt
+Use [wkhtmltopdf](https://wkhtmltopdf.org/) ,open command prompt inside the same folder as wkhtmltopdf.exe, run
 ```
 wkhtmltopdf --page-size Letter --disable-smart-shrinking --margin-top 5 --margin-bottom 5 sorce destination
-wkhtmltopdf --page-size Letter --disable-smart-shrinking --margin-top 5 --margin-bottom 5 file:///C:/Users/Wong/Desktop/MyWebsite/resume_2019.html C:/Users/Wong/Desktop/wong_2019.pdf
-wkhtmltopdf --page-size Letter --disable-smart-shrinking --margin-top 5 --margin-bottom 5 file:///C:/Users/Wong/Desktop/MyWebsite/mock_resume_2019.html C:/Users/Wong/Desktop/mock_2019.pdf
+wkhtmltopdf --page-size Letter --disable-smart-shrinking --margin-top 5 --margin-bottom 5 file:///C:/Users/Wong/Desktop/MyWebsite/resume2019.html C:/Users/Wong/Desktop/wong2019.pdf
+```
+
+**To Generate Mock resume as pdf**
+```
+wkhtmltopdf --page-size Letter --disable-smart-shrinking --margin-top 5 --margin-bottom 5 file:///C:/Users/Wong/Desktop/MyWebsite/mockResume2019.html C:/Users/Wong/Desktop/mock2019.pdf
+```
+
+**To Generate coverLetter as pdf**
+```
+wkhtmltopdf --page-size Letter --disable-smart-shrinking --margin-top 5 --margin-bottom 5 file:///C:/Users/Wong/Desktop/MyWebsite/coverLetter.html C:/Users/Wong/Desktop/coverLetter.pdf
 ```
