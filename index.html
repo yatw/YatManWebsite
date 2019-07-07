@@ -6,13 +6,17 @@
 	<title>Yat Man's Website</title>
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<!-- To use developer icon http://konpa.github.io/devicon/ -->
+	<!-- To use developer icon --> 
+	<!-- http://konpa.github.io/devicon/ -->
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<!-- font awesome icons -->
+	<!-- https://fontawesome.com/v4.7.0/icons/-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	
 	<link href="style.css" rel="stylesheet">
 </head>
@@ -47,18 +51,21 @@
 
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img src="img/field.jpg">
+			<img class="main-cover" src="img/background.png">
+			<div class="color-layer"></div>
+			
 			<div class="carousel-caption">
 				<h1 class="display-2">Yat Man, Wong</h1>
 				<h3>Recent graduate from UC Irvine</h3>
-				<button type="button" class="btn btn-outline-light btn-lg" onClick="document.getElementById('projects').scrollIntoView();">MY WORK</button>
-				<button type="button" class="btn btn-primary btn-lg" onClick="window.open('resume2019.html');">Resume</button>
-				
+				<i class="fa fa-github colored" aria-hidden="true" onClick="window.open('https://www.github.com/yatw');"></i>
+				<i class="fa fa-linkedin-square colored" aria-hidden="true" onClick="window.open('https://www.linkedin.com/in/yatw/');"></i>
 			</div>
 		</div>
+
+		<!--
 		<div class="carousel-item">
 			<img src="img/background.png">
-		</div>
+		</div>-->
 	</div>
 	<a class="left carousel-control" href="#slides" role="button" data-slide="prev">
 		<span class="glyphicon glyphicon-chevron-left"></span>
@@ -102,26 +109,31 @@
 <div class="row text-center padding">
 	<div class="col-xs-12 col-sm-6 col-md-4">
 		<h3>Programming Languages</h3>
-		<i class="devicon-c-plain-wordmark colored"></i>
-		<i class="devicon-cplusplus-plain colored"></i>
 		<i class="devicon-java-plain-wordmark colored"></i>
+		<i class="devicon-cplusplus-plain colored"></i>
+		<i class="devicon-javascript-plain colored"></i>
 		<i class="devicon-python-plain-wordmark colored"></i>
+
+
 	</div>
 	<div class="col-xs-12 col-sm-6 col-md-4">
 		<h3>Web Development</h3>
 		<i class="devicon-html5-plain-wordmark colored"></i>
-		<i class="devicon-javascript-plain colored"></i>
 		<i class="devicon-css3-plain-wordmark colored"></i>
+		<i class="devicon-nodejs-plain colored"></i>
 		<i class="devicon-bootstrap-plain-wordmark colored"></i>
 		<i class="devicon-jquery-plain-wordmark colored"></i>
+		<i class="devicon-wordpress-plain-wordmark colored"></i>
+
 	</div>
 	<div class="col-sm-12 col-md-4">
 		<h3>Database and Servers</h3>
 		<i class="devicon-mysql-plain-wordmark colored"></i>
+		<i class="devicon-mongodb-plain-wordmark colored"></i>
 		<i class="devicon-tomcat-line-wordmark colored"></i>
+		<i class="devicon-heroku-original-wordmark colored"></i>
 		<i class="devicon-amazonwebservices-plain-wordmark colored"></i>	
 		<i class="devicon-apache-line-wordmark colored"></i>
-		<i class="devicon-wordpress-plain-wordmark colored"></i>
 	</div>
 	<div class="col-sm-12 col-md-4">
 		<p>I use Object Orientated Programming to write concise code.
@@ -142,6 +154,19 @@
 		</p>
 	</div>
 </div>
+
+<div class="row text-center padding">
+	<div>
+		<h3>Tools and others</h3>
+		<i class="devicon-android-plain colored"></i>
+		<i class="devicon-git-plain colored"></i>
+		<i class="devicon-bitbucket-plain-wordmark colored"></i>
+		<i class="devicon-slack-plain-wordmark colored"></i>
+		<i class="devicon-trello-plain-wordmark colored"></i>
+	</div>
+</div>
+
+<div>
 	<hr class="my-4">
 </div>
 
