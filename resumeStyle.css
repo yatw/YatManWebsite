@@ -30,8 +30,9 @@ html, body{
 }
 
 p { 
-	font-size: 11pt; /*** 11 on pdf, 12 on web**/
+	font-size: 12pt; /*** 11 on pdf, 12 on web**/
 	margin: 5px; 
+	/**line-height: 20px; More spacing for cover letter**/
 }
 
 .paragraphBreak p{
