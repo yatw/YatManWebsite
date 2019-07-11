@@ -157,10 +157,22 @@ html, body{
 	padding-top: 20px;
 }
 
-
 .colored{
 	font-size: 4em;
 	margin: 1rem;
+}
+
+.fa-clickable {
+    cursor:pointer;
+	outline:none;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.fa-clickable:hover{
+	cursor:pointer;
+	outline:none;
+	color:  #ffcc66;
 }
 
 hr.light{
