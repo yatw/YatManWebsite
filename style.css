@@ -182,7 +182,6 @@ hr.light{
 	margin-bottom: 1rem;
 }
 
-
 section.resume-section .resume-item .resume-date{min-width:18rem}}
 section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:3rem!important}}
 	.bg-primary{background-color:#bd5d38!important}
@@ -208,8 +207,7 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;
 	font-weight: 500;
 	padding-bottom: 1rem;
 }
-
-
+ 
 
 }
 
@@ -226,6 +224,14 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;
 	font-weight: 500;
 	padding-bottom: 1rem;
 }
+
+.project-feature h4{
+	padding-top: 10px;
+	font-size: 150%;
+	color: #42bff5;
+	padding-bottom: 20px;
+}
+ 
 .jumbotron p{
 	font-size: 135%;
 	font-weight: bold;
@@ -254,35 +260,13 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;
 	font-weight: 500;
 	padding-bottom: 1rem;
 }
+
+ 
  .jumbotron p{
 	font-size: 135%;
 	font-weight: bold;
 }
 
-.fabflix h1{
-	font-size: 230%;
-	font-weight: 600%;
-	color: #6699ff; 	
-}
-.fabflix-feature h3{
-	font-size: 150%;
-	font-weight: 800;
-	color: #339933; 
-}
-.fabflix-feature p{
-	font-size: 100%;
-	color: #009933; 
-}
-.fabflix-carousel-caption h3{
-	font-size: 150%;
-	font-weight: 500;
-	color: #993333;
-}
-.fabflix-carousel-inner img{
-	width: 720;
-	height: 405px;
-	max-height: 405px;
- }
 }
 
 @media (max-width: 800px) {
@@ -301,25 +285,17 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;
 	font-size: 120%;
 	font-weight: bold;
 }
-.fabflix h1{
-	font-size: 200%;
-	font-weight: 600%;
-	color: #6699ff; 	
+.project-feature h4{
+	padding-top: 10px;
+	font-size: 130%;
+	color: #42bff5;
+	padding-bottom: 20px;
 }
-.fabflix-feature h3{
-	font-size: 170%;
-	font-weight: 800;
-	color: #339933; 
+
+.resume-content h1{
+	font-size: 100%;
 }
-.fabflix-feature p{
-	font-size: 120%;
-	color: #009933; 
-}
-.fabflix-carousel-caption h3{
-	font-size: 150%;
-	font-weight: 500;
-	color: #993333;
-}
+ 
 
  
 }
@@ -335,32 +311,13 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;
 	font-weight: 500;
 	padding-bottom: 1rem;
 }
+
+
 .jumbotron p{
 	font-size: 100%;
 	font-weight: bold;
 }
-.fabflix h1{
-	font-size: 170%;
-	font-weight: 600%;
-	color: #6699ff; 	
-}
 
-.fabflix-feature h3{
-	font-size: 130%;
-	font-weight: 800;
-	color: #339933; 
-}
-.fabflix-feature p{
-	font-size: 100%;
-	color: #009933; 
-}
-.fabflix-carousel-caption h3{
-	font-size: 120%;
-	font-weight: 500;
-	color: #993333;
-}
-
- 
 
 }
 
