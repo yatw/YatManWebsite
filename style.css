@@ -106,13 +106,21 @@ html, body{
 }
 
  
-.project h1{
+.project h2{
 	margin-top:100px;
 	padding-bottom: 0px;
 	font-size: 270%;
-	font-weight: 600%;
 	color: #6699ff; 
-	
+}
+
+.githubportal{
+	font-size: 200%;
+	color: #eb9234;
+	display:inline;
+}
+
+.alignright{
+	float: right;
 }
 
 .project-carousel-caption, .light-project-carousel-caption{
@@ -123,13 +131,11 @@ html, body{
 
 .project-carousel-caption h3{
 	font-size: 200%;
-	font-weight: 70;
 	color: #993333;
 }
 
 .light-project-carousel-caption h3{
 	font-size: 200%;
-	font-weight: 70;
 	color: #ffffff;
 }
 
@@ -172,7 +178,7 @@ html, body{
 .fa-clickable:hover{
 	cursor:pointer;
 	outline:none;
-	color:  #ffcc66;
+	color:  #05A;
 }
 
 hr.light{
@@ -182,14 +188,20 @@ hr.light{
 	margin-bottom: 1rem;
 }
 
-section.resume-section .resume-item .resume-date{min-width:18rem}}
-section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:3rem!important}}
+section.edu-section .edu-item .edu-date{min-width:18rem}
+section.edu-section{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:3rem!important}
 	.bg-primary{background-color:#bd5d38!important}
-	.text-primary{color:#bd5d38!important}
+
+.text-primary{
+	color:#bd5d38 !important;
+	font-size:14pt !important;
+}
 	a{color:#bd5d38}a:active,a:focus,a:hover{color:#824027}
-.resume-content h1{
+.edu-content p{
 	font-size: 14pt;
+	font-weight: 500;
 	color: #006600;
+	margin:0;
 }	
 
 /*---Media Queries --*/
@@ -291,10 +303,6 @@ section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important;
 	color: #42bff5;
 	padding-bottom: 20px;
 }
-
-.resume-content h1{
-	font-size: 100%;
-}
  
 
  
@@ -368,7 +376,7 @@ figure {
 
 
 
-
+/*--- 
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
 
@@ -384,7 +392,7 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
-
+--*/
 
 
 

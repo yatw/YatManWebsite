@@ -8,10 +8,10 @@
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<!-- To use developer icon --> 
-	<!--                 http://konpa.github.io/devicon/                -->
+	<!--                 http://konpa.github.io/devicon/  -->
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<!-- font awesome icons -->
-	<!--             https://fontawesome.com/v4.7.0/icons/                          -->
+	<!--             https://fontawesome.com/v4.7.0/icons/  -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	
@@ -20,9 +20,15 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	
 	<link href="style.css" rel="stylesheet">
+
+	<!-- favicon generator -->
+	<!-- https://favicon.io/favicon-generator/ -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
 </head>
 <body>
-
 <!-- Navigation 
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 <div class="container-fluid">
@@ -52,17 +58,18 @@
 
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img class="main-cover" src="img/background.png">
+			<img class="main-cover" src="img/background.png" alt="">
 			<div class="color-layer"></div>
 			
 			<div class="carousel-caption">
 				<h1 class="display-2">Yat Man, Wong</h1>
-				<h3>Recent graduate from UC Irvine</h3>
+				<h3>Software Engineer</h3>
 				<i class="fa fa-github colored fa-clickable" title="Github" onClick="window.open('https://www.github.com/yatw');"></i>
 				<i class="fa fa-linkedin-square colored fa-clickable" title="Linkedin" onClick="window.open('https://www.linkedin.com/in/yatw/');"></i>
-				<i class="fa fa-file-text colored fa-clickable" title="Resume" onClick="window.open('resume2019.html');"></i>
 
-				
+				<!--
+					<i class="fa fa-file-text colored fa-clickable" title="Resume" onClick="window.open('resume2019.html');"></i>
+				-->
 			</div>
 		</div>
 
@@ -89,9 +96,10 @@
 	</div>
 </div>
 </div>
+<div class="container-fluid">
 
 <!--- Welcome Section -->
-<div class = "container-fluid padding">
+<div class="container-fluid padding">
 <div class = "row welcome text-center">
 	<div class="col-12">
 		<h2 class="mb-5"> TECHNICAL SKILLS</h2>
@@ -101,36 +109,37 @@
 	<p>
 		Creating tools and solving problems are the aspects I enjoy the most in software development.
 		I like having the freedom and ability to create whatever I want; this is why I find this field so fascinating.
-	</p>
-		
+	</p>	
 	</div>
 </div>
-</div>
 
 
-<!--- Three Column Section -->
-<div class="container-fluid padding">
-<div class="row text-center padding">
-	<div class="col-xs-12 col-sm-6 col-md-4">
+<div class="text-center padding">
+	<div>
 		<h3>Programming Languages</h3>
 		<i class="devicon-java-plain-wordmark colored"></i>
 		<i class="devicon-cplusplus-plain colored"></i>
 		<i class="devicon-javascript-plain colored"></i>
 		<i class="devicon-python-plain-wordmark colored"></i>
-
-
 	</div>
-	<div class="col-xs-12 col-sm-6 col-md-4">
+</div>
+
+<div class="text-center padding">
+	<div>
 		<h3>Web Development</h3>
+		<i class="devicon-nodejs-plain colored"></i>
+		<i class="devicon-react-original-wordmark colored"></i>
 		<i class="devicon-html5-plain-wordmark colored"></i>
 		<i class="devicon-css3-plain-wordmark colored"></i>
-		<i class="devicon-nodejs-plain colored"></i>
 		<i class="devicon-bootstrap-plain-wordmark colored"></i>
 		<i class="devicon-jquery-plain-wordmark colored"></i>
 		<i class="devicon-wordpress-plain-wordmark colored"></i>
-
 	</div>
-	<div class="col-sm-12 col-md-4">
+</div>
+
+
+<div class="text-center padding">
+	<div>
 		<h3>Database and Servers</h3>
 		<i class="devicon-mysql-plain-wordmark colored"></i>
 		<i class="devicon-mongodb-plain-wordmark colored"></i>
@@ -139,27 +148,9 @@
 		<i class="devicon-amazonwebservices-plain-wordmark colored"></i>	
 		<i class="devicon-apache-line-wordmark colored"></i>
 	</div>
-	<div class="col-sm-12 col-md-4">
-		<p>I use Object Orientated Programming to write concise code.
-		   I can utilitze the different data structures and conduct run time analaysis of algorithms.
-		   I can use the above languages in a conversational programming level.
-		</p>
-	</div>
-	<div class="col-sm-12 col-md-4">
-		<p>I have projects and internship experience in making frontend-backend seperated websites.
-		   I have seen how web-development tools (especially ODBC,JSON,AJAX,Jquery) work together.
-		   I personally enjoy backend development more because I like dealing with the operating logic.
-		</p>
-	</div>
-	<div class="col-sm-12 col-md-4">
-		<p>I know the concept of relational database and have written queries to manage data for a client administrative website.
-		   I develop in my local tomcat server and import to AWS production server. I also learned WordPress and deployed an experimental site on 
-		   local MAPP and XAMPP server.
-		</p>
-	</div>
 </div>
 
-<div class="row text-center padding">
+<div class="text-center padding">
 	<div>
 		<h3>Tools and others</h3>
 		<i class="devicon-android-plain colored"></i>
@@ -169,73 +160,78 @@
 		<i class="devicon-trello-plain-wordmark colored"></i>
 	</div>
 </div>
-
+</div>
 <div>
 	<hr class="my-4">
 </div>
 
 <!--- Education -->
 <div class="container-fluid padding">
-<section style="margin-left:20px" class="resume-section p-lg-5 d-flex flex-column" id="education">
+<section style="margin-left:20px" class="edu-section p-lg-5 d-flex flex-column" id="education">
   <h2 class="mb-3">Education</h2>
 
-	<div class="resume-item d-flex flex-column flex-md-row">
-		<div class="resume-content mr-auto">
+	<div class="edu-item d-flex flex-column flex-md-row">
+		<div class="edu-content mr-auto">
 			<h3 class="mb-0">University of California, Irvine</h3>
 			<div class="subheading mb-3"><h5>Bachelor of Science</h5></div>
 			<div><h6>Computer Science - Information specialization</h6></div>
 			<h6>GPA: 3.31</h6>
 
 			<div><h5>Relevant Courses:</h5></div>
-			<h1>ICS53  Principles of System Design</h1>
-			<h1>ICS46  Data Structure Implementation and Analysis</h1>
-			<h1>CS161  Design and Analysis of Algorithms</h1>
-			<h1>CS163  Graph Algorithms</h1>
-			<h1>CS121  Information Retrieval</h1>
-			<h1>CS122B Projects in Databases and Web Applications</h1>
-			<h1>CS132  Computer Networks</h1>
-			<h1>CS171  Introduction to Artificial Intelligence</h1>
-			<h1>CS178  Machine Learning and Data Mining</h1>
-			<h1>CS143B Project in Operating Systems</h1>
-			<h1>INF115 Software Testing and Quality Assurance</h1>
+
+			<p>ICS53  Principles of System Design</p>
+			<p>ICS46  Data Structure Implementation and Analysis</p>
+			<p>CS161  Design and Analysis of Algorithms</p>
+			<p>CS163  Graph Algorithms</p>
+			<p>CS121  Information Retrieval</p>
+			<p>CS122B Projects in Databases and Web Applications</p>
+			<p>CS132  Computer Networks</p>
+			<p>CS171  Introduction to Artificial Intelligence</p>
+			<p>CS178  Machine Learning and Data Mining</p>
+			<p>CS143B Project in Operating Systems</p>
+			<p>INF115 Software Testing and Quality Assurance</p>
 		</div>
 
-		<div style="margin-right:5px" class="resume-date text-md-right">
+		<div style="margin-right:5px" class="edu-date text-md-right">
 			<span class="text-primary">September 2015 - June 2019</span>
 		</div>
 	</div>
 </section>
 </div>
 
-</div>
+<div>
 	<hr class="my-4">
 </div>
 
 <!--- Sample Project -->
 <div class="container-fluid padding">
 
-<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+<section class="edu-section p-3 p-lg-5 d-flex flex-column" id="projects">
 <h2 class="mb-5" style="padding-bottom: 0px;">Sample Projects</h2>
 
 
 
 
 <div class="project">
-	<h1>UCI Housing (January - June, 2019)</h1>
+
+	
+	<h2>UCI Housing (January - June, 2019)</h2>
+	
 
 	<div class="row padding">
 
 
 		<div class="project-feature col-lg-12">	
-			
-			<h4>UCI Housing is a flask web app project I worked on with a team of 4 in <b>UCI app dev club</b>, its purpose is to allow
+
+			<h4>UCI Housing is a Flask web app project I worked on with a team of 4 in <b>UCI app dev club</b>, its purpose is to help
 				students to easily find and sublease apartment during summer vacation.
 			</h4>
 					
-			<li><p>Poster email verification<p></li>
-			<li><p>Spam and sold report<p></li>
-			<li><p>Ip check and delete post<p></li>
-			
+			<ul>
+				<li><p>Poster email verification<p></li>
+				<li><p>Spam and sold report<p></li>
+				<li><p>Ip check and delete post<p></li>
+			</ul>
 		</div>
 				
 		<div id="uciHousing_slides" class="carousel slide" data-interval="false">
@@ -250,13 +246,13 @@
 			
 			<div class="project-carousel-inner">
 				<div class="carousel-item active">
-					<img src="img/uciHousing/main.png">
+					<img src="img/uciHousing/main.png" alt="">
 				</div>
 				<div class="carousel-item">
-					<img src="img/uciHousing/post.png">
+					<img src="img/uciHousing/post.png" alt="">
 				</div>
 				<div class="carousel-item">
-					<img src="img/uciHousing/makePost.png">
+					<img src="img/uciHousing/makePost.png" alt="">
 				</div>
 				
 			</div>
@@ -269,7 +265,7 @@
 
 
 <div class="project">
-	<h1>GeoPerception (April - June, 2019)</h1>
+	<h2>GeoPerception (April - June, 2019)</h2>
 
 	<div class="row padding">
 
@@ -277,14 +273,15 @@
 		<div class="project-feature col-lg-12">	
 			
 			<h4>GeoPerception is an Android App developed for Smith Micro to rank the performance of 5 WiFI positioning API (Google, Mozilla, UnwiredLabs, SkyHook, HERE)</h4>
-					
-			<li><p>Runs services manually and automatically<p></li>
-			<li><p>Display wifi location accuracy<p></li>
-			<li><p>Set up automatic recurring call<p></li>
-			<li><p>Allow user to report actual location<p></li>
-			<li><p>Store accuracy, error, response in ElasticSearch<p></li>
-			<li><p>Kibana Visalization<p></li>
-			
+				
+			<ul>
+				<li><p>Runs services manually and automatically<p></li>
+				<li><p>Display wifi location accuracy<p></li>
+				<li><p>Set up automatic recurring call<p></li>
+				<li><p>Allow user to report actual location<p></li>
+				<li><p>Store accuracy, error, response in ElasticSearch<p></li>
+				<li><p>Kibana Visalization<p></li>
+			</ul>
 		</div>
 		
 			
@@ -301,15 +298,15 @@
 
 			<div class="project-carousel-inner">
 				<div class="carousel-item active">
-				<img src="img/geo/geo0.jpg">
+				<img src="img/geo/geo0.jpg" alt="">
 
 				</div>
 				<div class="carousel-item">
-				<img src="img/geo/geo1.jpg">
+				<img src="img/geo/geo1.jpg" alt="">
 
 				</div>
 				<div class="carousel-item">
-				<img src="img/geo/geo2.png">
+				<img src="img/geo/geo2.png" alt="">
 
 				</div>
 			</div>
@@ -323,42 +320,46 @@
 </div>
 
 <div class="project">
-	<h1>InfoCluster (July - Present, 2019)</h1>
 
+	<div>
+		<h2>Bookmark (July - Present, 2019)</h2>
+		<span class="alignright italic"><a class="githubportal" href="https://github.com/yatw/Bookmark" target="_blank">Portal to Github</a></span>
+	</div>
+	
 	<div class="row padding">
 
 
 		<div class="project-feature col-lg-12">	
 			
-			<h4>InfoCluster is my very own information management website done in Node.js/Express, offering more customized feature compare to Google bookmark</h4>
+			<h4>My own bookmark manager done in Node.js and React to save and organize links</h4>
 
-					
-			<li><p>Auto Extrack title and description from url<p></li>
-			<li><p>Easily retrieve useful information<p></li>
+			<ul>
+				<li><p>Auto Extrack title and description from url<p></li>
+				<li><p>Easily retrieve relevant links<p></li>
+			</ul>
 		</div>
 		
 			
 			
-		<div id="infoCluster_slides" class="carousel slide" data-interval="false">
+		<div id="bookmark_slides" class="carousel slide" data-interval="false">
 
 
 			<ol class="carousel-indicators">
-				<li data-target="#infoCluster_slides" data-slide-to="0" class="active"></li>
+				<li data-target="#bookmark_slides" data-slide-to="0" class="active"></li>
 			</ol>
 
 
 			<div class="project-carousel-inner">
 
 				<div class="carousel-item active">
-					<img src="img/infoCluster/main.png">
-
+					<img src="img/bookmark/main.png" alt="">
 				</div>
 
 			</div>
 
 			<!-- 
-			<a class="carousel-control-prev" href="#infoCluster_slides" data-slide="prev"><p>&lsaquo;</p></a>
-			<a class="carousel-control-next" href="#infoCluster_slides" data-slide="next"><p>&rsaquo;</p></a>
+			<a class="carousel-control-prev" href="#bookmark_slides" data-slide="prev"><p>&lsaquo;</p></a>
+			<a class="carousel-control-next" href="#bookmark_slides" data-slide="next"><p>&rsaquo;</p></a>
 			-->
 		</div>
 			
@@ -367,19 +368,24 @@
 
 
 <div class="project">
-	<h1>NovaTracker (April - June, 2019)</h1>
+
+	<div>
+		<h2>NovaTracker (April - June, 2019)</h2> 
+		<span class="alignright italic"><a class="githubportal" href="https://github.com/yatw/NovaTracker" target="_blank">Portal to Github</a></span>
+	</div>
 
 	<div class="row padding">
 
 		<div class="project-feature col-lg-12">	
 
-			<h4>The market tracking tool that all Ragnarok players wished to exist</h4>
-					
-			<li><p>Set refine requirement and ideal price<p></li>
-			<li><p>Track item with refine >= refine requirement is on sell <= ideal price<p></li>
-			<li><p>Tracker will check the market every 15 minutes<p></li>
-			<li><p>Get Notified on discord message<p></li>
-			<li><p>Only showing the cheaper item when multiple items are on sell<p></li>
+			<h4>The market tracking tool that all Ragnarok players wished to exist</h4>					
+			<ul>
+				<li><p>Set refine requirement and ideal price<p></li>
+				<li><p>Track item with refine >= refine requirement is on sell &lt;= ideal price<p></li>
+				<li><p>Tracker will check the market every 15 minutes<p></li>
+				<li><p>Get Notified on discord message<p></li>
+				<li><p>Only showing the cheaper item when multiple items are on sell<p></li>
+			</ul>
 		</div>
 		
 			
@@ -397,21 +403,21 @@
 			<div class="project-carousel-inner">
 
 				<div class="carousel-item active">
-					<img src="img/novaTracker/track.png">
+					<img src="img/novaTracker/track.png" alt="">
 						<div class="light-project-carousel-caption">
 							<h3>Sample Notification</h3>
 						</div>
 				</div>
 
 				<div class="carousel-item">
-					<img src="img/novaTracker/lowest.png">
+					<img src="img/novaTracker/lowest.png" alt="">
 						<div class="light-project-carousel-caption">
 							<h3>Sample lowest command</h3>
 						</div>
 				</div>
 
 				<div class="carousel-item">
-					<img src="img/novaTracker/info.png">
+					<img src="img/novaTracker/info.png" alt="">
 						<div class="light-project-carousel-caption">
 							<h3>Sample info commands</h3>
 						</div>
@@ -429,7 +435,7 @@
 	  
 
 <div class="project">
-	<h1>Fabflix Movie Selling Website (April - June, 2018)</h1>
+	<h2>Fabflix Movie Selling Website (April - June, 2018)</h2>
 
 	<div class="row padding">
 
@@ -438,15 +444,17 @@
 			
 			<h4>My very first web development project done with a partner in the span of 10 weeks</h4>
 					
-			<li><p>User session with cookie<p></li>
-			<li><p>Search with substring matching<p></li>
-			<li><p>Pagination with previous/next page <p></li>
-			<li><p>Sort movies by title/rating<p></li>
-			<li><p>Password encryption <p></li>
-			<li><p>Jump Functionality between pages <p></li>
-			<li><p>Shopping Cart and checkout <p></li>
-			<li><p>reCAPTHA bot detection<p></li> 
-			<li><p>Employee Dashboard<p></li> 
+			<ul>
+				<li><p>User session with cookie<p></li>
+				<li><p>Search with substring matching<p></li>
+				<li><p>Pagination with previous/next page <p></li>
+				<li><p>Sort movies by title/rating<p></li>
+				<li><p>Password encryption <p></li>
+				<li><p>Jump Functionality between pages <p></li>
+				<li><p>Shopping Cart and checkout <p></li>
+				<li><p>reCAPTHA bot detection<p></li> 
+				<li><p>Employee Dashboard<p></li> 
+			</ul>
 			
 		</div>
 				
@@ -463,25 +471,25 @@
 			
 			<div class="project-carousel-inner">
 				<div class="carousel-item active">
-					<img src="img/fabflix/fabflix1.png">
+					<img src="img/fabflix/fabflix1.png" alt="">
 						<div class="project-carousel-caption">
 							<h3>Sample Login Page</h3>
 						</div>
 				</div>
 				<div class="carousel-item">
-					<img src="img/fabflix/fabflix2.png">
+					<img src="img/fabflix/fabflix2.png" alt="">
 						<div class="project-carousel-caption">
 							<h3>Sample Movie Result</h3>
 						</div>
 				</div>
 				<div class="carousel-item">
-					<img src="img/fabflix/fabflix3.png">
+					<img src="img/fabflix/fabflix3.png" alt="">
 						<div class="project-carousel-caption">
 							<h3>Sample Shopping Cart</h3>
 						</div>
 				</div>
 				<div class="carousel-item">
-					<img src="img/fabflix/fabflix4.png">
+					<img src="img/fabflix/fabflix4.png" alt="">
 						<div class="project-carousel-caption">
 							<h3>Sample Employee Dashboard</h3>
 						</div>
@@ -494,14 +502,13 @@
 		</div>
 	</div>
 </div>
-
-	  
+  
 	  
 </section>
 </div>
 
 
-</div>
+<div>
 	<hr class="my-4">
 </div>
 
@@ -518,24 +525,24 @@
 		</p>
 		
 		<p> 
-			Ignorance is a sin. <b>My biggest take away from my four years of stay in University is learn to absorb and gather information; you have to actively seek opportunity and involvement,</b>
+			Ignorance is a sin. <b>My biggest take away from my stay in University is learn to absorb and gather information; you have to actively seek opportunity and involvement,</b>
 			otherwise you will miss out on interesting things happening around you.
 		</p>
 
 	</div>
 	<div class="col-lg-6">
-		<img src="img/panda.jpg" class="img-fluid">
+		<img src="img/panda.jpg" class="img-fluid" alt="">
 	</div>
 </div>
 </div>
 
-</div>
+<div>
 	<hr class="my-4">
 </div>
 
 <!--- Interest/Hobbies -->
 <div class="container-fluid padding">
-<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+<section class="edu-section p-3 p-lg-5 d-flex flex-column" id="interests">
 	<div class="self_description">
 	  <h2 class="mb-5">Interests/Hobbies/Misc</h2>
 	  
@@ -564,7 +571,7 @@
 
 
 
-
+</div>
 </body>
 </html>
 
