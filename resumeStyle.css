@@ -89,5 +89,6 @@ ul{
 
 hr{
 	padding-top: 0px;
-	border-top: 1px solid #000000;
+	border-color: #324ca8;
+	border-top: 1px solid #324ca8;
 }
