@@ -43,11 +43,6 @@ html, body{
 	text-shadow: 1px 1px 15px #000;
 }
 
-.carousel-caption h3{
-	font-size: 200%;
-	font-weight: 500;
-	padding-bottom: 1rem;
-}
 
 
 .jumbotron{
@@ -174,11 +169,6 @@ section.edu-section{padding-top:3rem!important;padding-bottom:3rem!important;pad
 	text-shadow: 1px 1px 15px #000;
 }
 
-.carousel-caption h3{
-	font-size: 170%;
-	font-weight: 500;
-	padding-bottom: 1rem;
-}
  
 
 }
@@ -191,11 +181,6 @@ section.edu-section{padding-top:3rem!important;padding-bottom:3rem!important;pad
 	text-shadow: 1px 1px 15px #000;
 }
 
-.carousel-caption h3{
-	font-size: 150%;
-	font-weight: 500;
-	padding-bottom: 1rem;
-}
 
 .project-title{
 	margin-top:50px;
@@ -230,12 +215,6 @@ ul.project-features p{
 	text-shadow: 1px 1px 15px #000;
 }
 
-.carousel-caption h3{
-	font-size: 150%;
-	font-weight: 500;
-	padding-bottom: 1rem;
-}
-
  
  .jumbotron p{
 	font-size: 135%;
@@ -251,11 +230,6 @@ ul.project-features p{
 	text-shadow: 1px 1px 15px #000;
 }
 
-.carousel-caption h3{
-	font-size: 120%;
-	font-weight: 500;
-	padding-bottom: 1rem;
-}
 .jumbotron p{
 	font-size: 120%;
 	font-weight: bold;
@@ -313,15 +287,15 @@ figure {
 @media (max-width: 576px) {
   
 	.carousel-caption h1{
-		font-size: 200%;
+		font-size: 150%;
+		text-shadow: 1px 1px 15px #000;
+	}
+
+	.carousel-caption h3{
+		font-size: 100%;
 		text-shadow: 1px 1px 15px #000;
 	}
 	
-	.carousel-caption h3{
-		font-size: 100%;
-		font-weight: 500;
-		padding-bottom: 1rem;
-	}
 	
 	.jumbotron p{
 		font-size: 80%;
@@ -329,8 +303,7 @@ figure {
 	}
 
 	.colored{
-		font-size: 2em;
-		margin: 1rem;
+		font-size: 1.5em;
 	}
 
 	.btn{
@@ -352,20 +325,6 @@ figure {
 		font-size: 120%;
 	}
 
-	h3{
-		font-size: 110%;
-	}
-
-	h5{
-		font-size: 100%;
-	}
-	h6{
-		font-size: 90%;
-	}
-	
-	h2{
-		font-size: 170%;
-	}
 
 	.edu-content p{
 		font-size: 11pt;
