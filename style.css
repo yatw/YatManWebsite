@@ -5,7 +5,9 @@ html, body{
 	width: 100%;
 	font-family: 'Poppins', sans-serif;
 	color: #222;
+	scroll-behavior: smooth;
 }
+
 
 .navbar{
 	padding: .8rem;
@@ -17,13 +19,13 @@ html, body{
 	font-size: 1.1em !important;
 }
 
-.main-cover{
+.cover{
 	width: 100%;
-	height: auto;
+	height: auto
 }
 
 .color-layer {
-    background-color: rgba(6, 176, 244, 0.29);
+	background-color: rgba(28, 250, 95, 0.281);   
     position: absolute;
     top: 0;
     left: 0;
@@ -46,16 +48,12 @@ html, body{
 	font-weight: 500;
 	padding-bottom: 1rem;
 }
-.btn-primary{
-	background-color: #00B800;
-	border: 1px solid #00B800;
-	color: #ffffff;
-}
+
 
 .jumbotron{
 	padding: 1rem;
 	border-radius: 0;
-	background-color: #00B800;
+	background-color: #003399;
 	color: #ffffff;
 	text-align: center;
 }
@@ -84,9 +82,11 @@ html, body{
 
 .text-center h3{
 	padding-bottom: 1rem;
-	color: #6699ff;
 }
 
+.btm-space{
+	padding-bottom: 5rem;
+}
 
 .project-carousel-inner img{
     width: 100%;
@@ -103,56 +103,29 @@ html, body{
 }
 
  
-.project h2{
+.project-title{
 	margin-top:50px;
 	padding-bottom: 0px;
-	font-size: 270%;
-	color: #6699ff; 
-}
-
-.githubportal{
 	font-size: 200%;
-	color: #eb9234;
-	display:inline;
+	color: #eb9234; 
 }
 
-.project-carousel-caption, .light-project-carousel-caption{
-	position: absolute;
-	top: 20%;
-	left: 5%;
-}
 
-.project-carousel-caption h3{
-	font-size: 200%;
-	color: #993333;
-}
-
-.light-project-carousel-caption h3{
-	font-size: 200%;
-	color: #ffffff;
-}
-
-.project-feature p{
+ul.project-features p{
 	font-size: 120%;
 	color: #009933; 
 }
 
-.project-feature h4{
-	padding-top: 10px;
-	font-size: 180%;
-	color: #42bff5;
-	padding-bottom: 20px;
+.project p{
+	font-size: 110%;
 }
  
 .text-center p{
 	font-size: 120%;
 }
-.attitude p{
-	font-size: 140%;
-	padding-top: 20px;
-}
+
 .self_description p{
-	font-size: 120%;
+	font-size: 130%;
 	padding-top: 20px;
 }
 
@@ -171,15 +144,9 @@ html, body{
 .fa-clickable:hover{
 	cursor:pointer;
 	outline:none;
-	color:  #05A;
+	color: #00ccff;
 }
 
-hr.light{
-	border-top: 1px solid #d5d5d5;
-	width: 75%;
-	margin-top: .8rem;
-	margin-bottom: 1rem;
-}
 
 section.edu-section .edu-item .edu-date{min-width:18rem}
 section.edu-section{padding-top:3rem!important;padding-bottom:3rem!important;padding-left:3rem!important}
@@ -230,22 +197,25 @@ section.edu-section{padding-top:3rem!important;padding-bottom:3rem!important;pad
 	padding-bottom: 1rem;
 }
 
-.project-feature h4{
-	padding-top: 10px;
+.project-title{
+	margin-top:50px;
+	padding-bottom: 0px;
 	font-size: 150%;
-	color: #42bff5;
-	padding-bottom: 20px;
+	color: #eb9234; 
+}
+
+
+ul.project-features p{
+	font-size: 100%;
+	color: #009933; 
 }
  
 .jumbotron p{
-	font-size: 135%;
+	font-size: 120%;
 	font-weight: bold;
 }
 
-.attitude p{
-	font-size: 100%;
-	padding-top: 20px;
-}
+
 .self_description p{
 	font-size: 100%;
 	padding-top: 20px;
@@ -290,50 +260,9 @@ section.edu-section{padding-top:3rem!important;padding-bottom:3rem!important;pad
 	font-size: 120%;
 	font-weight: bold;
 }
-.project-feature h4{
-	padding-top: 10px;
-	font-size: 130%;
-	color: #42bff5;
-	padding-bottom: 20px;
-}
- 
+
 
  
-}
-@media (max-width: 640px) {
-  
-.carousel-caption h1{
-	font-size: 200%;
-	text-shadow: 1px 1px 15px #000;
-}
-
-.carousel-caption h3{
-	font-size: 100%;
-	font-weight: 500;
-	padding-bottom: 1rem;
-}
-
-.project h2{
-	margin-top:50px;
-	padding-bottom: 0px;
-	font-size: 160%;
-	color: #6699ff; 
-}
-
-.githubportal{
-	font-size: 120%;
-	color: #eb9234;
-	display:inline;
-}
-
-
-
-.jumbotron p{
-	font-size: 100%;
-	font-weight: bold;
-}
-
-
 }
 
 
@@ -404,6 +333,10 @@ figure {
 		margin: 1rem;
 	}
 
+	.btn{
+		font-size: 0.5em;
+	}
+
 	.welcome{
 		width: 100%;
 		margin: 0% auto;
@@ -417,7 +350,6 @@ figure {
 	.text-center h3{
 		padding-bottom: 1rem;
 		font-size: 120%;
-		color: #6699ff;
 	}
 
 	h3{
@@ -442,31 +374,23 @@ figure {
 		margin:0;
 	}
 
-	.project h2{
+	.project-title{
 		margin-top:50px;
 		padding-bottom: 0px;
-		font-size: 140%;
-		color: #6699ff; 
+		font-size: 110%;
+		color: #eb9234; 
 	}
-
-	.project-feature h4{
-		padding-top: 10px;
-		font-size: 100%;
-		color: #42bff5;
-		padding-bottom: 20px;
-	}
-
-	.project-feature p{
+	
+	ul.project-features p{
 		font-size: 100%;
 		color: #009933; 
 	}
 
-	
-	.githubportal{
+	.project p{
 		font-size: 100%;
-		color: #eb9234;
-		display:inline;
 	}
+	 
+
 
 	}
 

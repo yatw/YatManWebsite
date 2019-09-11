@@ -2,22 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="This website is a quick and easy way to get to know me">
+	<meta name="description" content="I would describe myself as a self-starter as well as an adventurous programmer who always explore new technology.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Yat Man's Website</title>
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<meta name="keywords" content="Los Angeles, Web Developer, C++, JavaScript, Python, React, Bootstrap, SQL">
+    <meta name="author" content="Yat Man, Wong">
+	<title>Yat Man, Wong - Software Developer</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="bootstrap-4.3.1-dist/css/custom.css">
 	<!-- To use developer icon --> 
-	<!--                 http://konpa.github.io/devicon/  -->
+	<!-- http://konpa.github.io/devicon/  -->
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<!-- font awesome icons -->
-	<!--             https://fontawesome.com/v4.7.0/icons/  -->
+	<!-- https://fontawesome.com/v4.7.0/icons/  -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 	
 	<link href="style.css" rel="stylesheet">
 
@@ -49,24 +50,40 @@
 </div>
 </nav>
 -->
-<!--- Image Slider -->
 
-<div class="carousel-item active">
-	<img class="main-cover" src="img/background.png" alt="">
+
+<!--- Main Cover -->
+
+<div class="carousel">
+
+	<img class="cover" src="resources/bluebg.jpg" alt="">
 	<div class="color-layer"></div>
-	
 	<div class="carousel-caption">
-		<h1 class="display-2">Yat Man, Wong</h1>
-		<h3>Software Engineer</h3>
-		<i class="fa fa-github colored fa-clickable" title="Github" onClick="window.open('https://www.github.com/yatw');"></i>
-		<i class="fa fa-linkedin-square colored fa-clickable" title="Linkedin" onClick="window.open('https://www.linkedin.com/in/yatw/');"></i>
 
-		<!--
-			<i class="fa fa-file-text colored fa-clickable" title="Resume" onClick="window.open('resume2019.html');"></i>
-		-->
+		<h1 class="display-2">Yat Man, Wong</h1>
+		<h3>Software developer</h3>
+
+		<div class="container">
+
+			<div class="row">
+				<div class="col">
+					<i class="fa fa-github colored fa-clickable" title="Github" onClick="window.open('https://www.github.com/yatw');"></i>
+					<i class="fa fa-linkedin-square colored fa-clickable" title="Linkedin" onClick="window.open('https://www.linkedin.com/in/yatw/');"></i>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<a href="#projects" class="btn btn-success btn-lg" >View my Projects</a>
+					<button type="button" class="btn btn-outline-warning btn-lg" onClick="window.open('wong2019.pdf');">Resume</button>
+			    </div>
+		    </div>
+			<!--
+				<i class="fa fa-file-text colored fa-clickable" title="Resume" onClick="window.open('resume2019.html');"></i>
+			-->
+		</div>
 	</div>
 </div>
-
 	<!--
 	<div class="carousel-item">
 		<img src="img/background.png">
@@ -79,466 +96,268 @@
 	<span class="glyphicon glyphicon-chevron-right"></span>
 </a>
 -->
-
-
-<!--- Jumbotron -->
+<!--- Jumbotron 
 <div class="container-fluid padding">
-<div class="row jumbotron">
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-		<p>The ability to endure hardship is built from experience- it is also what distinguish a person from another.</p>
-	</div>
-</div>
-<div class="container-fluid">
-
-<!--- Welcome Section -->
-<div class = "row welcome text-center">
-	<div class="col-12">
-		<h2 class="mb-5"> TECHNICAL SKILLS</h2>
-	</div>
-	<hr>
-	<div class="col-12">
-	<p>
-		Creating tools and solving problems are the aspects I enjoy the most in software development.
-		I like having the freedom and ability to create whatever I want; this is why I find this field so fascinating.
-	</p>	
-	</div>
-</div>
-
-
-<div class="text-center">
-	<div>
-		<h3>Programming Languages</h3>
-		<i class="devicon-java-plain-wordmark colored"></i>
-		<i class="devicon-cplusplus-plain colored"></i>
-		<i class="devicon-javascript-plain colored"></i>
-		<i class="devicon-python-plain-wordmark colored"></i>
-	</div>
-</div>
-
-<div class="text-center">
-	<div>
-		<h3>Web Development</h3>
-		<i class="devicon-nodejs-plain colored"></i>
-		<i class="devicon-react-original-wordmark colored"></i>
-		<i class="devicon-html5-plain-wordmark colored"></i>
-		<i class="devicon-css3-plain-wordmark colored"></i>
-		<i class="devicon-bootstrap-plain-wordmark colored"></i>
-		<i class="devicon-jquery-plain-wordmark colored"></i>
-		<i class="devicon-wordpress-plain-wordmark colored"></i>
-	</div>
-</div>
-
-
-<div class="text-center">
-	<div>
-		<h3>Database and Servers</h3>
-		<i class="devicon-mysql-plain-wordmark colored"></i>
-		<i class="devicon-mongodb-plain-wordmark colored"></i>
-		<i class="devicon-tomcat-line-wordmark colored"></i>
-		<i class="devicon-heroku-original-wordmark colored"></i>
-		<i class="devicon-amazonwebservices-plain-wordmark colored"></i>	
-		<i class="devicon-apache-line-wordmark colored"></i>
-	</div>
-</div>
-
-<div class="text-center">
-	<div>
-		<h3>Tools and others</h3>
-		<i class="devicon-android-plain colored"></i>
-		<i class="devicon-git-plain colored"></i>
-		<i class="devicon-bitbucket-plain-wordmark colored"></i>
-		<i class="devicon-slack-plain-wordmark colored"></i>
-		<i class="devicon-trello-plain-wordmark colored"></i>
-	</div>
-</div>
-</div>
-<div>
-	<hr class="my-4">
-</div>
-
-<!--- Education -->
-<section class="edu-section" id="education">
-  <h2 class="mb-3">Education</h2>
-
-	<div class="edu-item d-flex flex-column flex-md-row">
-		<div class="edu-content mr-auto">
-			<h3 class="mb-0">University of California, Irvine</h3>
-			<div class="subheading mb-3"><h5>Bachelor of Science</h5></div>
-			<div><h6>Computer Science - Information specialization</h6></div>
-			<h6>GPA: 3.31</h6>
-
-			<div><h5>Relevant Courses:</h5></div>
-
-			<p>ICS53  Principles of System Design</p>
-			<p>ICS46  Data Structure Implementation and Analysis</p>
-			<p>CS161  Design and Analysis of Algorithms</p>
-			<p>CS163  Graph Algorithms</p>
-			<p>CS121  Information Retrieval</p>
-			<p>CS122B Projects in Databases and Web Applications</p>
-			<p>CS132  Computer Networks</p>
-			<p>CS171  Introduction to Artificial Intelligence</p>
-			<p>CS178  Machine Learning and Data Mining</p>
-			<p>CS143B Project in Operating Systems</p>
-			<p>INF115 Software Testing and Quality Assurance</p>
-		</div>
-
-		<div style="margin-right:5px" class="edu-date text-md-right">
-			<span class="text-primary">September 2015 - June 2019</span>
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+			<p>The ability to endure hardship is built from experience- it is also what distinguish a person from another.</p>
 		</div>
 	</div>
-</section>
-
-<div>
-	<hr class="my-4">
 </div>
+-->
 
-<!--- Sample Project -->
+<!--- Projects -->
 <div class="container-fluid">
 
 <section class="p-3 p-lg-5" id="projects">
-<h2>Sample Projects</h2>
-
-
+<h2 class="btm-space">Projects</h2>
 
 
 <div class="project">
 
 	
-	<h2>UCI Housing (January - June, 2019)</h2>
-	
+	<div class="row btm-space">
+		<div class="col-12 col-md-7">
+			<img class="img-fluid cover" style="width: 800px; height: auto; float: right;" src="resources\ucihousingDemo.gif" alt="No Gif">
+		</div>
+		<div class="col-12 col-md-5">
+			<h3 class="project-title mt-3 mt-lg-0">UCI Housing</h3>
+			<p>UCI Housing is a Flask web app project I worked on with a team of 4 in <b>UCI app dev club</b>, its purpose is to help
+				students to easily find and sublease apartment during summer vacation.</p>
 
-	<div class="row">
-
-
-		<div class="project-feature col-lg-12">	
-
-			<h4>UCI Housing is a Flask web app project I worked on with a team of 4 in <b>UCI app dev club</b>, its purpose is to help
-				students to easily find and sublease apartment during summer vacation.
-			</h4>
-					
-			<ul>
+			<ul class="project-features">
 				<li><p>Poster email verification<p></li>
 				<li><p>Spam and sold report<p></li>
 				<li><p>Ip check and delete post<p></li>
 			</ul>
-		</div>
-				
-		<div id="uciHousing_slides" class="carousel slide" data-interval="false">
-		
-		
-			<ol class="carousel-indicators">
-				<li data-target="#uciHousing_slides" data-slide-to="0" class="active"></li>
-				<li data-target="#uciHousing_slides" data-slide-to="1"></li>
-				<li data-target="#uciHousing_slides" data-slide-to="2"></li>
-			</ol>
-		
-			
-			<div class="project-carousel-inner">
-				<div class="carousel-item active">
-					<img src="img/uciHousing/main.png" alt="">
-				</div>
-				<div class="carousel-item">
-					<img src="img/uciHousing/post.png" alt="">
-				</div>
-				<div class="carousel-item">
-					<img src="img/uciHousing/makePost.png" alt="">
-				</div>
-				
-			</div>
-				
-			<a class="carousel-control-prev" href="#uciHousing_slides" data-slide="prev"><p>&lsaquo;</p></a>
-			<a class="carousel-control-next" href="#uciHousing_slides" data-slide="next"><p>&rsaquo;</p></a>
-		</div>
-	</div>
-</div>
 
-
-<div class="project">
-	<h2>GeoPerception (April - June, 2019)</h2>
-
-	<div class="row">
-
-
-		<div class="project-feature col-lg-12">	
-			
-			<h4>GeoPerception is an Android App developed for Smith Micro to rank the performance of 5 WiFI positioning API (Google, Mozilla, UnwiredLabs, SkyHook, HERE)</h4>
-				
-			<ul>
-				<li><p>Runs services manually and automatically<p></li>
-				<li><p>Display wifi location accuracy<p></li>
-				<li><p>Set up automatic recurring call<p></li>
-				<li><p>Allow user to report actual location<p></li>
-				<li><p>Store accuracy, error, response in ElasticSearch<p></li>
-				<li><p>Kibana Visalization<p></li>
+			<ul class="list-inline">
+				<li class="list-inline-item">
+					<button class="btn btn-outline-primary">Demo Coming Soon</button>
+				</li>
+				<li class="list-inline-item mt-3 md-lg-0">
+					<button class="btn btn-outline-secondary disabled">Private Repository</button>
+				</li>
 			</ul>
-		</div>
-		
-			
-			
-		<div id="geo_slides" class="carousel slide" data-interval="false">
 
-
-			<ol class="carousel-indicators">
-				<li data-target="#geo_slides" data-slide-to="0" class="active"></li>
-				<li data-target="#geo_slides" data-slide-to="1"></li>
-				<li data-target="#geo_slides" data-slide-to="2"></li>
-			</ol>
-
-
-			<div class="project-carousel-inner">
-				<div class="carousel-item active">
-				<img src="img/geo/geo0.jpg" alt="">
-
-				</div>
-				<div class="carousel-item">
-				<img src="img/geo/geo1.jpg" alt="">
-
-				</div>
-				<div class="carousel-item">
-				<img src="img/geo/geo2.png" alt="">
-
-				</div>
-			</div>
-
-			<a class="carousel-control-prev" href="#geo_slides" data-slide="prev"><p>&lsaquo;</p></a>
-			<a class="carousel-control-next" href="#geo_slides" data-slide="next"><p>&rsaquo;</p></a>
-
-		</div>
-			
-	</div>
-</div>
-
-<div class="project">
-
-	<h2>Bookmark (July - Present, 2019)</h2>
-
-	<div class="row">
-
-		<div class="project-feature col-lg-12">	
-			<a class="githubportal" href="https://github.com/yatw/Bookmark" target="_blank">Portal to Github</a>
-			<h4>My own bookmark manager done in Node.js and React to save and organize links</h4>
-			
-			<ul>
-				<li><p>Auto Extrack title and description from url<p></li>
-				<li><p>Mark links as star or completed<p></li>
-				<li><p>Easily search relevant links<p></li>
-				<li><p>Table auto update on insert<p></li>
-			</ul>
-		</div>
-		
-			
-			
-		<div id="bookmark_slides" class="carousel slide" data-interval="false">
-
-
-			<ol class="carousel-indicators">
-				<li data-target="#bookmark_slides" data-slide-to="0" class="active"></li>
-			</ol>
-
-
-			<div class="project-carousel-inner">
-
-				<div class="carousel-item active">
-					<img src="img/bookmark/main.png" alt="">
-				</div>
-
-			</div>
-
-			<!-- 
-			<a class="carousel-control-prev" href="#bookmark_slides" data-slide="prev"><p>&lsaquo;</p></a>
-			<a class="carousel-control-next" href="#bookmark_slides" data-slide="next"><p>&rsaquo;</p></a>
-			-->
-		</div>
-			
-	</div>
-</div>
-
-
-<div class="project">
-
-	<h2>NovaTracker (April - June, 2019)</h2> 
-
-	<div class="row">
-
-		<div class="project-feature col-lg-12">	
-			<a class="githubportal" href="https://github.com/yatw/NovaTracker" target="_blank">Portal to Github</a>
-			<h4>The market tracking tool that all Ragnarok players wished to exist</h4>	
-			
-				
-			<ul>
-				<li><p>Set refine requirement and ideal price<p></li>
-				<li><p>Track item with refine >= refine requirement is on sell &lt;= ideal price<p></li>
-				<li><p>Tracker will check the market every 15 minutes<p></li>
-				<li><p>Get Notified on discord message<p></li>
-				<li><p>Only showing the cheaper item when multiple items are on sell<p></li>
-			</ul>
-		</div>
-		
-			
-			
-		<div id="novaTracker_slides" class="carousel slide" data-interval="false">
-
-
-			<ol class="carousel-indicators">
-				<li data-target="#novaTracker_slides" data-slide-to="0" class="active"></li>
-				<li data-target="#novaTracker_slides" data-slide-to="1"></li>
-				<li data-target="#novaTracker_slides" data-slide-to="2"></li>
-			</ol>
-
-
-			<div class="project-carousel-inner">
-
-				<div class="carousel-item active">
-					<img src="img/novaTracker/track.png" alt="">
-						<div class="light-project-carousel-caption">
-							<h3>Sample Notification</h3>
-						</div>
-				</div>
-
-				<div class="carousel-item">
-					<img src="img/novaTracker/lowest.png" alt="">
-						<div class="light-project-carousel-caption">
-							<h3>Sample lowest command</h3>
-						</div>
-				</div>
-
-				<div class="carousel-item">
-					<img src="img/novaTracker/info.png" alt="">
-						<div class="light-project-carousel-caption">
-							<h3>Sample info commands</h3>
-						</div>
-				</div>
-
-			</div>
-
-			<a class="carousel-control-prev" href="#novaTracker_slides" data-slide="prev"><p>&lsaquo;</p></a>
-			<a class="carousel-control-next" href="#novaTracker_slides" data-slide="next"><p>&rsaquo;</p></a>
-
-		</div>
-			
-	</div>
-</div>
-	  
-
-<div class="project">
-	<h2>Fabflix Movie Selling Website (April - June, 2018)</h2>
-
-	<div class="row">
-
-
-		<div class="project-feature col-lg-12">	
-			
-			<h4>My very first web development project done with a partner in the span of 10 weeks</h4>
-					
-			<ul>
-				<li><p>User session with cookie<p></li>
-				<li><p>Search with substring matching<p></li>
-				<li><p>Pagination with previous/next page <p></li>
-				<li><p>Sort movies by title/rating<p></li>
-				<li><p>Password encryption <p></li>
-				<li><p>Jump Functionality between pages <p></li>
-				<li><p>Shopping Cart and checkout <p></li>
-				<li><p>reCAPTHA bot detection<p></li> 
-				<li><p>Employee Dashboard<p></li> 
-			</ul>
-			
-		</div>
-				
-		<div id="fabflix_slides" class="carousel slide" data-interval="false">
-		
-		
-			<ol class="carousel-indicators">
-				<li data-target="#fabflix_slides" data-slide-to="0" class="active"></li>
-				<li data-target="#fabflix_slides" data-slide-to="1"></li>
-				<li data-target="#fabflix_slides" data-slide-to="2"></li>
-				<li data-target="#fabflix_slides" data-slide-to="3"></li>
-			</ol>
-		
-			
-			<div class="project-carousel-inner">
-				<div class="carousel-item active">
-					<img src="img/fabflix/fabflix1.png" alt="">
-						<div class="project-carousel-caption">
-							<h3>Sample Login Page</h3>
-						</div>
-				</div>
-				<div class="carousel-item">
-					<img src="img/fabflix/fabflix2.png" alt="">
-						<div class="project-carousel-caption">
-							<h3>Sample Movie Result</h3>
-						</div>
-				</div>
-				<div class="carousel-item">
-					<img src="img/fabflix/fabflix3.png" alt="">
-						<div class="project-carousel-caption">
-							<h3>Sample Shopping Cart</h3>
-						</div>
-				</div>
-				<div class="carousel-item">
-					<img src="img/fabflix/fabflix4.png" alt="">
-						<div class="project-carousel-caption">
-							<h3>Sample Employee Dashboard</h3>
-						</div>
-				</div>
-				
-			</div>
-				
-			<a class="carousel-control-prev" href="#fabflix_slides" data-slide="prev"><p>&lsaquo;</p></a>
-			<a class="carousel-control-next" href="#fabflix_slides" data-slide="next"><p>&rsaquo;</p></a>
+			<p>Done in Python, Flask, MongoDB, Bootstrap<p>
 		</div>
 	</div>
-</div>
-  
-	  
-</section>
-</div>
 
-
-<div>
-	<hr class="my-4">
-</div>
-
-<!--- Two Column Section -->
-<div class="row">
-	<div class="attitude col-md-12 col-lg-6 p-lg-5" id="attitude">
+	<div class="row btm-space">
+			<div class="col-12 col-md-7">
+				<img class="img-fluid cover" style="width: 800px; height: auto; float: right;" src="resources\BookmarkDemo.gif" alt="No Gif">
+			</div>
+			<div class="col-12 col-md-5">
+				<h3 class="project-title mt-3 mt-lg-0">Bookmark Manager</h3>
+				<p>A full-stack web app to store and organize useful information for future reference</p>
 	
-		<h2>Work/ Life Ethic...</h2>
+				<ul class="project-features">
+					<li><p>Auto extrack title and description from url</p></li>
+					<li><p>Support tags filter, search, and sort concurrently</p></li>
+					<li><p>Match all tags rather than any</p></li>
+					<li><p>Custome browser extension enable hotkey save on any page</p></li>
+				</ul>
+	
+				<ul class="list-inline">
+					<li class="list-inline-item">
+						<button class="btn btn-outline-primary" onclick="window.open('https://yatw-bookmark.herokuapp.com/','_blank')">Demo</button>
+					</li>
+					<li class="list-inline-item mt-3 md-lg-0">
+						<button class="btn btn-info" onclick=" window.open('https://github.com/yatw/BookmarksManager','_blank')">Code</button>
+					</li>
+				</ul>
+				<p>Done in Node.js, Express, React, JavaScript, CSS, MySQL</p>
 
-		<p> 
-			Most of us are greedy algorithms. We often plan out the optimal choices to get things done for the next week or next month, 
-			but rarely consider things that don’t immediately affect us. 
-		</p>
-		
-		<p> 
-			Ignorance is a sin. <b>My biggest take away from my stay in University is learn to absorb and gather information; you have to actively seek opportunity and involvement,</b>
-			otherwise you will miss out on interesting things happening around you.
-		</p>
+			</div>
+	</div>
 
+	<div class="row btm-space">
+			<div class="col-12 col-md-7">
+				<img class="img-fluid cover" style="width: 336px; height: auto;  float: right;" src="resources\geoDemo.gif" alt="No Gif">
+			</div>
+			<div class="col-12 col-md-5">
+				<h3 class="project-title mt-3 mt-lg-0">GeoPerception</h3>
+				<p>Android App developed for Smith Micro to rank the performance of 5 WiFI positioning APIs (Google, Mozilla, UnwiredLabs, SkyHook, HERE)</p>
+	
+				<ul class="project-features">
+					<li><p>Allow user to report actual location<p></li>
+					<li><p>Display wifi location accuracy in Mapbox<p></li>
+					<li><p>Runs services manually and automatically<p></li>
+					<li><p>Generate accuracy, error, response in database<p></li>
+					<li><p>Produce Kibana dashboard such as quality over time<p></li>
+				</ul>
+	
+				<ul class="list-inline">
+					<li class="list-inline-item">
+						<button class="btn btn-outline-secondary disabled">Demo Not Available</button>
+					</li>
+					<li class="list-inline-item mt-3 md-lg-0">
+						<button class="btn btn-info" onclick=" window.open('https://github.com/yatw/Geoperception-Demo','_blank')">Code</button>
+					</li>
+				</ul>
+				<p>Done in Java, ElasticSearch, Mapbox SDK</p>
+
+			</div>
 	</div>
-	<div class="col-lg-6">
-		<img src="img/panda.jpg" class="img-fluid panda" alt="">
+
+	<div class="row btm-space">
+			<div class="col-12 col-md-7">
+				<img class="img-fluid cover" style="width: 470px; height: auto; float: right;" src="resources\NovaTrackerDemo.gif" alt="No Gif">
+			</div>
+			<div class="col-12 col-md-5">
+				<h3 class="project-title mt-3 mt-lg-0">NovaTracker</h3>
+				<p>A discord bot to help user track items on sell in the game market</p>
+	
+				<ul class="project-features">
+					<li><p>Set refine requirement and ideal price</p></li>
+					<li><p>Track item with refine >= refine requirement is on sell &lt;= ideal price</p></li>
+					<li><p>Only showing the cheaper item when multiple items are on sell</p></li>
+				</ul>
+	
+				<ul class="list-inline">
+					<li class="list-inline-item">
+						<button class="btn btn-outline-primary" onclick="window.open('https://discordapp.com/oauth2/authorize?client_id=571526126602813441&permissions=2048&scope=bot','_blank')">Demo</button>
+					</li>
+					<li class="list-inline-item mt-3 md-lg-0">
+						<button class="btn btn-info" onclick=" window.open('https://github.com/yatw/NovaTracker','_blank')">Code</button>
+					</li>
+				</ul>
+				<p>Done in Python, MongoDB, Beautiful Soup, AWS</p>
+
+			</div>
 	</div>
+
 </div>
+
+	  
+</div>	  
+</section>
+
+
+<div>
+	<hr class="my-4">
+</div>
+		
+
+<!--- Education -->
+<section class="edu-section" id="education">
+	<h2 class="mb-3">Education</h2>
+  
+	  <div class="edu-item d-flex flex-column flex-md-row">
+		  <div class="edu-content mr-auto">
+			  <h3 class="mb-0">University of California, Irvine</h3>
+			  <div class="subheading mb-3"><h5>Bachelor of Science</h5></div>
+			  <div><h6>Computer Science - Information specialization</h6></div>
+			  <h6>GPA: 3.31</h6>
+  
+			  <div><h5>Relevant Courses:</h5></div>
+  
+			  <p>Principles of System Design</p>
+			  <p>Data Structure Implementation and Analysis</p>
+			  <p>Design and Analysis of Algorithms</p>
+			  <p>Graph Algorithms</p>
+			  <p>Information Retrieval</p>
+			  <p>Projects in Databases and Web Applications</p>
+			  <p>Computer Networks</p>
+			  <p>Introduction to Artificial Intelligence</p>
+			  <p>Machine Learning and Data Mining</p>
+			  <p>Project in Operating Systems</p>
+			  <p>Software Testing and Quality Assurance</p>
+		  </div>
+  
+		  <div style="margin-right:5px" class="edu-date text-md-right">
+			  <span class="text-primary">September 2015 - June 2019</span>
+		  </div>
+	  </div>
+</section>
+
 
 <div>
 	<hr class="my-4">
 </div>
 
-<!--- Interest/Hobbies -->
-<div class="edu-section col-md-12 col-lg-6 p-lg-5 self_description" id="interests">
-	  <h2 class="mb-5">Interests/Hobbies/Misc</h2>
-	  
-	  <p> My favourite movie is Die Hard. I like fun facts and witty life hacks, and I love to pick up other people's wisdom whenever I can.</p>
-	  
-	  <p>
-	      I don't play the latest, coolest games out there, but I like to multi-clients in Ragnarok Online and control the game economy.
-	  </p>
-	  
-	  <p> Occasionally, I play soccer and "SunnyBall".
-	      Sometimes I run in the morning. But most of the time I do some slight reading before breakfast.
-	  </p>
-	</div>
+<div class="container-fluid">
 
+		<!--- Welcome Section -->
+		<div class = "row welcome text-center">
+			<div class="col-12">
+				<h2 class="mb-5"> TECHNICAL SKILLS</h2>
+			</div>
+			<hr>
+			<div class="col-12">
+			<p>
+				Creating tools and solving problems are the aspects I enjoy the most in software development.
+			</p>	
+			</div>
+		</div>
+		
+		
+		<div class="text-center">
+			<div>
+				<h3>Programming Languages</h3>
+				<i class="devicon-java-plain-wordmark colored"></i>
+				<i class="devicon-cplusplus-plain colored"></i>
+				<i class="devicon-javascript-plain colored"></i>
+				<i class="devicon-python-plain-wordmark colored"></i>
+			</div>
+		</div>
+		
+		<div class="text-center">
+			<div>
+				<h3>Web Development</h3>
+				<i class="devicon-nodejs-plain colored"></i>
+				<i class="devicon-react-original-wordmark colored"></i>
+				<i class="devicon-html5-plain-wordmark colored"></i>
+				<i class="devicon-css3-plain-wordmark colored"></i>
+				<i class="devicon-bootstrap-plain-wordmark colored"></i>
+				<i class="devicon-jquery-plain-wordmark colored"></i>
+				<i class="devicon-wordpress-plain-wordmark colored"></i>
+			</div>
+		</div>
+		
+		
+		<div class="text-center">
+			<div>
+				<h3>Database and Servers</h3>
+				<i class="devicon-mysql-plain-wordmark colored"></i>
+				<i class="devicon-mongodb-plain-wordmark colored"></i>
+				<i class="devicon-tomcat-line-wordmark colored"></i>
+				<i class="devicon-heroku-original-wordmark colored"></i>
+				<i class="devicon-amazonwebservices-plain-wordmark colored"></i>	
+				<i class="devicon-apache-line-wordmark colored"></i>
+			</div>
+		</div>
+		
+		<div class="text-center">
+			<div>
+				<h3>Tools and others</h3>
+				<i class="devicon-android-plain colored"></i>
+				<i class="devicon-git-plain colored"></i>
+				<i class="devicon-bitbucket-plain-wordmark colored"></i>
+				<i class="devicon-slack-plain-wordmark colored"></i>
+				<i class="devicon-trello-plain-wordmark colored"></i>
+			</div>
+		</div>
+</div>
+
+<div>
+	<hr class="my-4">
+</div>
+		
+
+<!--- About Me -->
+<div class="self_description col-md-12 col-lg-6 p-lg-5 ">
+	<h2 class="mb-5">About Me</h2>
+	
+	<p> My favourite movie is Die Hard. I like fun facts and witty life hacks; I love to pick up other people's wisdom whenever I can.</p>
+	
+	<p>			
+		Ignorance is a sin. <b>My biggest take away from university is constantly absorb and gather information; you have to actively seek opportunity and involvement,</b>
+		otherwise you will miss out on things happening around you.
+	</p>
+	
+</div>
 <!--- Footer -->
  <footer class="py-5 bg-light">
   <div class="container">
@@ -550,6 +369,11 @@
 
 
 </div>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+	
 </body>
 </html>
 
