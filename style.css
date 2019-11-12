@@ -20,8 +20,10 @@ html, body{
 }
 
 .cover{
+	
 	width: 100%;
-	height: auto
+	height: 100vh;
+	object-fit: cover;
 }
 
 .color-layer {
@@ -36,7 +38,7 @@ html, body{
 
 .carousel-caption{
 	position: absolute;
-	top: 10%;
+	top: 25vh;
 }
 .carousel-caption h1{
 	font-size: 500%;
@@ -48,7 +50,7 @@ html, body{
 .jumbotron{
 	padding: 1rem;
 	border-radius: 0;
-	background-color: #003399;
+	background-color: #0d9cf5;
 	color: #ffffff;
 	text-align: center;
 }

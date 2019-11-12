@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="I would describe myself as a self-starter as well as an adventurous programmer who always explore new technology.">
+	<meta name="description" content="An adventurous programmer who always like to explore new technology.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="Los Angeles, Web Developer, C++, JavaScript, Python, React, Bootstrap, SQL">
     <meta name="author" content="Yat Man, Wong">
@@ -30,8 +30,9 @@
 	<link rel="manifest" href="img/favicon/site.webmanifest">
 </head>
 <body>
+
 <!-- Navigation 
-<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<nav id="navbar" class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 <div class="container-fluid">
 	<a class="navbar-brand" href="#"><img src="img/babylogo.png"></a>
 	<button class="navbar-toggler" type="buttom" data-toggle="collapse" data-target="#navbarResponsive">
@@ -49,12 +50,12 @@
 	</div>
 </div>
 </nav>
--->
+ -->
 
 
 <!--- Main Cover -->
 
-<div class="carousel">
+<div id="welcome-section" class="carousel">
 
 	<img class="cover" src="resources/bluebg.jpg" alt="">
 	<div class="color-layer"></div>
@@ -67,8 +68,18 @@
 
 			<div class="row">
 				<div class="col">
-					<i class="fa fa-github colored fa-clickable" title="Github" onClick="window.open('https://www.github.com/yatw');"></i>
-					<i class="fa fa-linkedin-square colored fa-clickable" title="Linkedin" onClick="window.open('https://www.linkedin.com/in/yatw/');"></i>
+
+					<i id="profile-link" class="fa fa-github colored fa-clickable" title="Github" 
+					onClick="window.open('https://www.github.com/yatw');"></i>
+
+					<i class="fa fa-linkedin-square colored fa-clickable" title="Linkedin" 
+					onClick="window.open('https://www.linkedin.com/in/yatw/');"></i>
+
+					<i class="fa fa-medium colored fa-clickable" title="Medium" 
+					onClick="window.open('https://medium.com/@yatmanwong');"></i>
+
+					
+
 				</div>
 			</div>
 
@@ -95,8 +106,8 @@
 <a class="right carousel-control" href="#slides" role="button" data-slide="next">
 	<span class="glyphicon glyphicon-chevron-right"></span>
 </a>
--->
-<!--- Jumbotron 
+
+<!--- Jumbotron -->
 <div class="container-fluid padding">
 	<div class="row jumbotron">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -104,16 +115,16 @@
 		</div>
 	</div>
 </div>
--->
+
 
 <!--- Projects -->
 <div class="container-fluid">
 
-<section class="p-3 p-lg-5" id="projects">
+<section id="projects" class="p-3 p-lg-5" id="projects">
 <h2 class="btm-space">Projects</h2>
 
 
-<div class="project">
+<div id="project-tile" class="project">
 
 	
 	<div class="row btm-space">
@@ -133,7 +144,7 @@
 
 			<ul class="list-inline">
 				<li class="list-inline-item">
-					<button class="btn btn-outline-primary">Demo Coming Soon</button>
+					<button class="btn btn-outline-secondary disabled">Demo Not Available</button>
 				</li>
 				<li class="list-inline-item mt-3 md-lg-0">
 					<button class="btn btn-outline-secondary disabled">Private Repository</button>
@@ -255,7 +266,7 @@
 			</div>
 			<div class="col-12 col-md-5">
 				<h3 class="project-title mt-3 mt-lg-0">Monster Sudoku Solver</h3>
-				<p>Program using Artifical Intelligence to solve expert level board with relativly low backtrack rate</p>
+				<p>Program using Artifical Intelligence to solve expert level boards with relativly low backtrack rate</p>
 	
 				<ul class="project-features">
 					<li><p>Solve any size of sudoku board<p></li>
